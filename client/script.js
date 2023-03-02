@@ -85,8 +85,8 @@ const handleSubmit = async (e) => {
 
     // messageDiv.innerHTML = "..."
     loader(messageDiv)
-    const url = 'http://localhost:5000/';
-    // const url = 'https://codex-im0y.onrender.com/';
+    // const url = 'http://localhost:5000/';
+    const url = 'https://legal-dojo-uganda.onrender.com/';
     const response = await fetch(url, {
             method: 'POST',
         headers: {
