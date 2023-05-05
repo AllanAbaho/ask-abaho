@@ -17,6 +17,11 @@ body {
   text-align: center;
 }
 
+#page-description{
+  color:#fff;
+  text-align: center;
+  padding: 2%;
+}
 #app {
   width: 100vw;
   height: 100vh;
@@ -121,7 +126,7 @@ body {
 form {
   width: 100%;
   max-width: 1280px;
-  margin: 0 auto;
+  margin-bottom: 100px;
   padding: 10px;
   background: #40414F;
 
