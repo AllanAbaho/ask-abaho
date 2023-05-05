@@ -11,6 +11,12 @@ body {
   background: #343541;
 }
 
+#page-header{
+  color:#fff;
+  margin-top: 2.5%;
+  text-align: center;
+}
+
 #app {
   width: 100vw;
   height: 100vh;
