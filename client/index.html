@@ -8,20 +8,23 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="app">
-      <div id="page-header">
-        <h1>Ask Abaho</h1>
-        <p>Kampala's best chatbot - 2023.</p>
-      </div>
-      <p id="page-description">Voted by people who do not know anything about technology and have never lived in Kampala</p>
-
-      <div id="chat_container"></div>
-
-      <form>
-        <textarea name="prompt" rows="1" cols="1" placeholder="Ask Abaho..."></textarea>
-        <button type="submit"><img src="assets/send.svg" alt="send" />
-      </form>
+    <div id="app" class="container">
+        <div id="page-header">
+          <h1>Ask Abaho</h1><br>
+          <p>Kampala's best chatbot - 2023.</p><br>
+          <p>Voted by people who do not know anything about technology and have never lived in Kampala</p><br>
+        </div>
+        <div id="chat_container"></div>
+  
+        <form>
+          <textarea name="prompt" rows="1" cols="1" placeholder="Ask Abaho..."></textarea>
+          <button type="submit"><img src="assets/send.svg" alt="send" />
+        </form>
     </div>
+    <div class="copyright">
+      © Copyright <strong><span>Emasons</span></strong>. All Rights Reserved
+    </div>  
+
 
     <script type="module" src="script.js"></script>
   </body>
